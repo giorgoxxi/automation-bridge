@@ -1,0 +1,16 @@
+{
+  "skysports1": {
+    "deviceCommands": [
+      "sky",
+      "4",
+      "0",
+      "1"
+    ],
+    "braviaCommands": [
+      "sky"
+    ],
+    "broadlinkCommands": [
+      "sky"
+    ]
+  }
+}

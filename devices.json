@@ -1,0 +1,21 @@
+{
+  "sky": {
+    "ip": "192.168.1.1",
+    "mac": "FC:F1:52:85:10:C8",
+    "password":""
+  },
+  "bravia": {
+    "ip": "192.168.1.1",
+    "mac": "FC:F1:52:85:10:C8",
+    "password":"password"
+  },
+  "virgin": {
+    "ip": "192.168.1.1",
+    "mac": "FC:F1:52:85:10:C8",
+    "password":"password"
+  },
+  "broadlink": {
+    "ip": "192.168.1.1",
+    "mac": "FC:F1:52:85:10:C8"
+  }
+}

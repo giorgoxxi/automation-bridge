@@ -1,0 +1,77 @@
+{
+  "turnoff": {
+    "deviceCommands": [
+      "PowerOff"
+    ],
+    "broadlinkCommands":[
+      "power"
+    ]
+  },
+  "sky": {
+    "deviceCommands": [
+      "Hdmi1"
+    ]
+  },
+  "virgin": {
+    "deviceCommands": [
+      "Hdmi2"
+    ]
+  },
+  "media": {
+    "broadlinkCommands":[
+      "tv"
+    ],
+    "deviceCommands": [
+      "Hdmi1",
+      "2000",
+      "Home",
+      "3000",
+      "Up",
+      "Up",
+      "Up",
+      "Up",
+      "Up",
+      "Left",
+      "Left",
+      "Left",
+      "Left",
+      "Left",
+      "Left",
+      "Right",
+      "Confirm",
+      "Down",
+      "Down",
+      "Down",
+      "Confirm"
+    ]
+  },
+  "youtube": {
+    "broadlinkCommands": [
+      "tv"
+    ],
+    "deviceCommands": [
+      "Hdmi1",
+      "2000",
+      "Home",
+      "3000",
+      "Up",
+      "Up",
+      "Up",
+      "Up",
+      "Up",
+      "Left",
+      "Left",
+      "Left",
+      "Left",
+      "Left",
+      "Left",
+      "Right",
+      "Right",
+      "Right",
+      "Right",
+      "Confirm",
+      "Down",
+      "Confirm"
+    ]
+  }
+}

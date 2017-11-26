@@ -4,7 +4,7 @@ const express = require('express'),
     config = require('./config.json'),
     sky = require('./lib/sky'),
     virgin = require('./lib/virgin'),
-    broadlink = require('./lib/broadlinkManager'),
+    broadlink = require('./lib/broadlink'),
     http = require('http'),
     bodyParser = require('body-parser');
 

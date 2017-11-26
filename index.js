@@ -1,13 +1,12 @@
 const express = require('express'),
     bravia = require('./lib/bravia'),
     devices = require('./devices.json'),
+    config = require('./config.json'),
     sky = require('./lib/sky'),
     virgin = require('./lib/virgin'),
     broadlink = require('./lib/broadlinkManager'),
     http = require('http'),
     bodyParser = require('body-parser');
-
-const API_KEY = 'SecretKey';
 
 let app = express();
 let port = process.env.port || 999;
@@ -19,8 +18,9 @@ console.log('Listening on port ' + port);
 
 app.post("/", function (req, res) {
 
-    if (!req.body.key || req.body.key !== API_KEY){
+    if (!req.body.key || req.body.key !== config.apiKey){
         res.status(401).send();
+        return;
     }
 
     if (req.body.action) {

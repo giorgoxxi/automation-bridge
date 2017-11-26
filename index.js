@@ -9,7 +9,7 @@ const express = require('express'),
     bodyParser = require('body-parser');
 
 let app = express();
-let port = process.env.port || 999;
+let port = process.env.port || config.port;
 
 app.use(bodyParser.json());
 app.listen(port);
@@ -50,7 +50,7 @@ app.post("/", function (req, res) {
             })
         }
         else if (target === 'broadlink') {
-            broadlink(device.ip, function (client) {
+            broadlink(device, function (client) {
                 client.command(req.body.action)
             })
         }

@@ -1,48 +1,39 @@
 {
-  "power": {
-    "deviceCommands": [
-      "power"
-    ]},
-  "sky": {
-    "deviceCommands": [
-      "sky"
-    ]},
-  "tv": {
-    "deviceCommands": [
-      "tv"
-    ]},
-  "volumeUpMedium": {
-    "deviceCommands":[
-      "volumeUp",
-      "volumeUp",
-      "volumeUp",
-      "volumeUp",
-      "volumeUp",
-      "volumeUp",
-      "volumeUp",
-      "volumeUp",
-      "volumeUp",
-      "volumeUp"
-    ]
-  },
-  "volumeDownMedium": {
-    "deviceCommands":[
-      "volumeDown",
-      "volumeDown",
-      "volumeDown",
-      "volumeDown",
-      "volumeDown",
-      "volumeDown",
-      "volumeDown",
-      "volumeDown",
-      "volumeDown",
-      "volumeDown"
-    ]
-  },
-  "lightOn":{
-    "deviceCommands":[
-      "lightOn"
-    ]
-  }
+  "power": [
+    "power"
+  ],
+  "sky": [
+    "sky"
+  ],
+  "tv": [
+    "tv"
+  ],
+  "volumeUpMedium": [
+    "volumeUp",
+    "volumeUp",
+    "volumeUp",
+    "volumeUp",
+    "volumeUp",
+    "volumeUp",
+    "volumeUp",
+    "volumeUp",
+    "volumeUp",
+    "volumeUp"
+  ],
+  "volumeDownMedium": [
+    "volumeDown",
+    "volumeDown",
+    "volumeDown",
+    "volumeDown",
+    "volumeDown",
+    "volumeDown",
+    "volumeDown",
+    "volumeDown",
+    "volumeDown",
+    "volumeDown"
+  ],
+  "lightOn": [
+    "lightOn"
+  ]
 }
 

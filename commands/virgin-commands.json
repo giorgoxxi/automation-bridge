@@ -1,26 +1,10 @@
 {
-  "btsports2": {
-    "deviceCommands": [
-      "LIVETV",
-      "528"
-    ],
-    "braviaCommands": [
-      "virgin"
-    ],
-    "broadlinkCommands": [
-      "tv"
-    ]
-  },
-  "btsports1": {
-    "deviceCommands": [
-      "LIVETV",
-      "527"
-    ],
-    "braviaCommands": [
-      "virgin"
-    ],
-    "broadlinkCommands": [
-      "tv"
-    ]
-  }
+  "btsports2": [
+    "LIVETV",
+    "528"
+  ],
+  "btsports1": [
+    "LIVETV",
+    "527"
+  ]
 }

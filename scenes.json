@@ -1,0 +1,67 @@
+{
+  "skysports1": {
+    "broadlink": [
+      "sky"
+    ],
+    "bravia": [
+      "sky"
+    ],
+    "sky": [
+      "skysports1"
+    ]
+  },
+  "btsports1": {
+    "virgin": [
+      "btsports1"
+    ],
+    "bravia": [
+      "virgin"
+    ],
+    "broadlink": [
+      "tv"
+    ]
+  },
+  "btsports2": {
+    "virgin": [
+      "btsports2"
+    ],
+    "bravia": [
+      "virgin"
+    ],
+    "broadlink": [
+      "tv"
+    ]
+  },
+  "netflix": {
+    "bravia": [
+      "Netflix"
+    ],
+    "broadlink": [
+      "tv"
+    ]
+  },
+  "media": {
+    "bravia": [
+      "media"
+    ],
+    "broadlink": [
+      "tv"
+    ]
+  },
+  "youtube": {
+    "bravia": [
+      "youtube"
+    ],
+    "broadlink": [
+      "tv"
+    ]
+  },
+  "tvoff": {
+    "bravia": [
+      "PowerOff"
+    ],
+    "broadlink": [
+      "power"
+    ]
+  }
+}

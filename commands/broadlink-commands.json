@@ -8,6 +8,11 @@
   "tv": [
     "tv"
   ],
+  "volumeUpLong":[
+    "volumeUpMedium",
+    "volumeUpMedium",
+    "volumeUpMedium"
+  ],
   "volumeUpMedium": [
     "volumeUp",
     "volumeUp",
@@ -19,6 +24,11 @@
     "volumeUp",
     "volumeUp",
     "volumeUp"
+  ],
+  "volumeDownLong":[
+    "volumeDownMedium",
+    "volumeDownMedium",
+    "volumeDownMedium"
   ],
   "volumeDownMedium": [
     "volumeDown",

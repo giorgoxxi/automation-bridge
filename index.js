@@ -1,12 +1,9 @@
 const express = require('express'),
-    bravia = require('./lib/bravia'),
-    devices = require('./devices.json'),
     config = require('./config.json'),
-    sky = require('./lib/sky'),
-    virgin = require('./lib/virgin'),
-    broadlink = require('./lib/broadlink'),
     http = require('http'),
-    bodyParser = require('body-parser');
+    bodyParser = require('body-parser'),
+    sceneProcessor = require('./lib/processors/scene-processor'),
+    actionProcessor = require('./lib/processors/action-processor');
 
 let app = express();
 let port = process.env.port || config.port;
@@ -16,47 +13,31 @@ app.listen(port);
 
 console.log('Listening on port ' + port);
 
-app.post("/", function (req, res) {
+app.post("/", function (request, response) {
 
-    if (!req.body.key || req.body.key !== config.apiKey){
-        res.status(401).send();
+    let requestBody = request.body;
+
+    if (!requestBody.key || requestBody.key !== config.apiKey) {
+        response.status(401).send();
         return;
     }
 
-    if (req.body.action) {
-        res.status(200).send('success');
-
-        let target = req.body.target;
-
-        if (!target){
-            target = "bravia";
-        }
-
-        let device = devices[target];
-
-        if (target === 'bravia') {
-            bravia(device.ip, device.mac, device.password, function (client) {
-                client.command(req.body.action)
-            })
-        }
-        else if (target === 'sky') {
-            sky(device.ip, function (client) {
-                client.command(req.body.action)
-            })
-        }
-        else if (target === 'virgin') {
-            virgin(device.ip, function (client) {
-                client.command(req.body.action)
-            })
-        }
-        else if (target === 'broadlink') {
-            broadlink(device, function (client) {
-                client.command(req.body.action)
-            })
-        }
-    } else {
-        res.status(500).send('Cannot parse command')
+    if (!requestBody.scene && (!requestBody.actions && !requestBody.target)) {
+        response.status(400).send();
+        return;
     }
+
+    if (requestBody.scene) {
+        sceneProcessor(requestBody.scene, function (processor) {
+            processor.executeScene();
+        })
+    } else {
+        actionProcessor(requestBody.target, requestBody.actions, function (processor) {
+            processor.executeActions();
+        })
+    }
+
+    response.status(200).send();
 
     console.log('Finished processing command');
 });

@@ -2,10 +2,19 @@
   "xboxOn":{
     "broadlink":[
       "av-xbox",
-      "xboxPower"
+      "xboxOn"
     ],
     "bravia":[
       "xbox"
+    ]
+  },
+  "xboxOff":{
+    "broadlink":[
+      "av-power",
+      "xboxOff"
+    ],
+    "bravia":[
+      "PowerOff"
     ]
   },
   "skysports1": {

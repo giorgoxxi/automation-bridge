@@ -74,6 +74,14 @@
       "av-tv"
     ]
   },
+  "tvon": {
+    "bravia": [
+      "Hdmi1"
+    ],
+    "broadlink": [
+      "av-tv"
+    ]
+  },
   "tvoff": {
     "bravia": [
       "PowerOff"

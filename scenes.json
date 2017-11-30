@@ -1,7 +1,16 @@
 {
+  "xboxOn":{
+    "broadlink":[
+      "av-xbox",
+      "xboxPower"
+    ],
+    "bravia":[
+      "xbox"
+    ]
+  },
   "skysports1": {
     "broadlink": [
-      "sky"
+      "av-sky"
     ],
     "bravia": [
       "sky"
@@ -18,7 +27,7 @@
       "virgin"
     ],
     "broadlink": [
-      "tv"
+      "av-tv"
     ]
   },
   "btsports2": {
@@ -29,7 +38,7 @@
       "virgin"
     ],
     "broadlink": [
-      "tv"
+      "av-tv"
     ]
   },
   "netflix": {
@@ -37,7 +46,7 @@
       "Netflix"
     ],
     "broadlink": [
-      "tv"
+      "av-tv"
     ]
   },
   "media": {
@@ -45,7 +54,7 @@
       "media"
     ],
     "broadlink": [
-      "tv"
+      "av-tv"
     ]
   },
   "youtube": {
@@ -53,7 +62,7 @@
       "youtube"
     ],
     "broadlink": [
-      "tv"
+      "av-tv"
     ]
   },
   "tvoff": {
@@ -61,7 +70,7 @@
       "PowerOff"
     ],
     "broadlink": [
-      "power"
+      "av-power"
     ]
   }
 }

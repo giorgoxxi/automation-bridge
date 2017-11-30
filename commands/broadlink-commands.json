@@ -1,49 +1,37 @@
 {
-  "power": [
-    "power"
+  "av-volumeUpLong":[
+    "av-volumeUpMedium",
+    "av-volumeUpMedium",
+    "av-volumeUpMedium"
   ],
-  "sky": [
-    "sky"
+  "av-volumeUpMedium": [
+    "av-volumeUp",
+    "av-volumeUp",
+    "av-volumeUp",
+    "av-volumeUp",
+    "av-volumeUp",
+    "av-volumeUp",
+    "av-volumeUp",
+    "av-volumeUp",
+    "av-volumeUp",
+    "av-volumeUp"
   ],
-  "tv": [
-    "tv"
+  "av-volumeDownLong":[
+    "av-volumeDownMedium",
+    "av-volumeDownMedium",
+    "av-volumeDownMedium"
   ],
-  "volumeUpLong":[
-    "volumeUpMedium",
-    "volumeUpMedium",
-    "volumeUpMedium"
-  ],
-  "volumeUpMedium": [
-    "volumeUp",
-    "volumeUp",
-    "volumeUp",
-    "volumeUp",
-    "volumeUp",
-    "volumeUp",
-    "volumeUp",
-    "volumeUp",
-    "volumeUp",
-    "volumeUp"
-  ],
-  "volumeDownLong":[
-    "volumeDownMedium",
-    "volumeDownMedium",
-    "volumeDownMedium"
-  ],
-  "volumeDownMedium": [
-    "volumeDown",
-    "volumeDown",
-    "volumeDown",
-    "volumeDown",
-    "volumeDown",
-    "volumeDown",
-    "volumeDown",
-    "volumeDown",
-    "volumeDown",
-    "volumeDown"
-  ],
-  "lightOn": [
-    "lightOn"
+  "av-volumeDownMedium": [
+    "av-volumeDown",
+    "av-volumeDown",
+    "av-volumeDown",
+    "av-volumeDown",
+    "av-volumeDown",
+    "av-volumeDown",
+    "av-volumeDown",
+    "av-volumeDown",
+    "av-volumeDown",
+    "av-volumeDown"
   ]
 }
 

@@ -1,18 +1,15 @@
 {
   "sky": {
-    "ip": "192.168.1.1",
-    "mac": "FC:F1:52:85:10:C8",
-    "password":""
+    "ip": "192.168.1.1"
   },
   "bravia": {
     "ip": "192.168.1.1",
     "mac": "FC:F1:52:85:10:C8",
     "password":"password"
   },
-  "virgin": {
+  "tivo": {
     "ip": "192.168.1.1",
-    "mac": "FC:F1:52:85:10:C8",
-    "password":"password"
+    "port": 31339
   },
   "broadlink": {
     "ip": "192.168.1.1",

@@ -29,22 +29,22 @@
     ]
   },
   "btsports1": {
-    "virgin": [
+    "tivo": [
       "btsports1"
     ],
     "bravia": [
-      "virgin"
+      "tivo"
     ],
     "broadlink": [
       "av-tv"
     ]
   },
   "btsports2": {
-    "virgin": [
+    "tivo": [
       "btsports2"
     ],
     "bravia": [
-      "virgin"
+      "tivo"
     ],
     "broadlink": [
       "av-tv"

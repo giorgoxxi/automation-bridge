@@ -1,9 +1,22 @@
 const express = require('express'),
     config = require('./config.json'),
-    http = require('http'),
     bodyParser = require('body-parser'),
     sceneProcessor = require('./lib/processors/scene-processor'),
-    actionProcessor = require('./lib/processors/action-processor');
+    actionProcessor = require('./lib/processors/action-processor'),
+    fs = require('fs'),
+    util = require('util');
+
+let log_file = fs.createWriteStream(__dirname + '/debug.log', {flags: 'a'});
+let log_stdout = process.stdout;
+
+console.log = function (d) {
+    log_file.write(util.format(d) + '\n');
+    log_stdout.write(util.format(d) + '\n');
+};
+
+process.__defineGetter__('stderr', function () {
+    return fs.createWriteStream(__dirname + '/error.log', {flags: 'a'})
+});
 
 let app = express();
 let port = process.env.port || config.port;
@@ -39,7 +52,7 @@ app.post("/", function (request, response) {
 
     response.status(200).send();
 
-    console.log('Finished processing command');
+    console.log('Finished processing request');
 });
 
 

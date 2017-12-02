@@ -89,5 +89,14 @@
     "broadlink": [
       "av-power"
     ]
+  },
+  "androidBoxOn": {
+    "bravia": [
+      "android"
+    ],
+    "broadlink": [
+      "av-tv",
+      "android-power"
+    ]
   }
 }

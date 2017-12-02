@@ -8,6 +8,9 @@
   "tivo": [
     "Hdmi2"
   ],
+  "android": [
+    "Hdmi3"
+  ],
   "media": [
     "Hdmi1",
     "2000",

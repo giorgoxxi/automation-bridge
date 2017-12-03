@@ -98,5 +98,16 @@
       "av-tv",
       "android-power"
     ]
+  },
+  "skyOn": {
+    "bravia": [
+      "sky"
+    ],
+    "broadlink": [
+      "av-sky"
+    ],
+    "sky": [
+      "sky"
+    ]
   }
 }

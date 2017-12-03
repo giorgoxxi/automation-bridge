@@ -109,5 +109,18 @@
     "sky": [
       "sky"
     ]
+  },
+  "skyChannel": {
+    "bravia": [
+      "sky"
+    ],
+    "broadlink": [
+      "av-sky"
+    ],
+    "sky": [
+      "sky",
+      "3000",
+      "PARAM1"
+    ]
   }
 }

@@ -41,7 +41,7 @@ app.post("/", function (request, response) {
     }
 
     if (requestBody.scene) {
-        sceneProcessor(requestBody.scene, function (processor) {
+        sceneProcessor(requestBody.scene, requestBody.params, function (processor) {
             processor.executeScene();
         })
     } else {

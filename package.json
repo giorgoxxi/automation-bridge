@@ -12,22 +12,10 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "broadlinkjs-rm": "^0.2.0",
-    "cors": "^2.8.4",
     "express": "^4.14.0",
-    "helmet": "^3.9.0",
-    "http": "0.0.0",
-    "lodash": "^4.17.4",
-    "node-gyp": "^3.6.2",
-    "node-uuid": "^1.4.2",
-    "promise": "^8.0.1",
     "request": "^2.79.0",
     "sky-remote": "^1.1.0",
-    "tough-cookie-filestore": "0.0.1",
-    "uuid": "^3.1.0",
-    "wake_on_lan": "0.0.4",
     "wakeonlan": "^0.1.0"
   },
-  "devDependencies": {
-    "debug": "^2.3.3"
-  }
+  "devDependencies": {}
 }

@@ -52,7 +52,7 @@ The service configuration is defined in the [`config.json`](config.json) file:
 }
 ```
 
-**<device-name>:** An identifier for the device  
+**device-name:** An identifier for the device  
 **ip:** The local IP address of the device  
 **port:** The port number of the device that exposes its control API  
 **mac:** The MAC address of the device (optional)  

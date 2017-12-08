@@ -40,7 +40,7 @@ The service configuration is defined in the [`config.json`](config.json) file:
  ### Devices configuration
  The devices configuration is defined in the [`devices.json`](devices.json) file:
  
-``` json
+```
 {
   "<device-name>": {
     "ip": "<ip-address>",
@@ -111,7 +111,7 @@ The payload to execute a scene is as follows:
 Assuming the bridge is running in `localhost` and port `999`, to execute a scene called `tivoOn` you would run:
 
 ``` bash
-curl -H "Content-Type: application/json" -X POST -d '{"scene":"tivOn","key":"secretKey"}' http://localhost:999
+curl -H "Content-Type: application/json" -X POST -d '{"scene":"tivoOn","key":"secretKey"}' http://localhost:999
 ```
 
 ## Executing Actions

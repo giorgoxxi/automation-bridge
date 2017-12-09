@@ -10,6 +10,7 @@ let log_file = fs.createWriteStream(__dirname + '/debug.log', {flags: 'a'});
 let log_stdout = process.stdout;
 
 console.log = function (d) {
+    d = (new Date()).toUTCString() + ' - ' + d;
     log_file.write(util.format(d) + '\n');
     log_stdout.write(util.format(d) + '\n');
 };
@@ -40,6 +41,8 @@ app.post("/", function (request, response) {
         return;
     }
 
+    console.log('Request received - ' + JSON.stringify(Object.assign({}, requestBody, {"key": "hidden"})));
+
     if (requestBody.scene) {
         sceneProcessor(requestBody.scene, requestBody.params, function (processor) {
             processor.executeScene();
@@ -54,5 +57,3 @@ app.post("/", function (request, response) {
 
     console.log('Finished processing request');
 });
-
-

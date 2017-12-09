@@ -13,6 +13,7 @@
     "body-parser": "^1.15.2",
     "broadlinkjs-rm": "^0.2.0",
     "express": "^4.14.0",
+    "node-yeelight": "^1.0.6",
     "request": "^2.79.0",
     "sky-remote": "^1.1.0",
     "wakeonlan": "^0.1.0"

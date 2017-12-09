@@ -1,0 +1,66 @@
+{
+  "powerOn": {
+    "functionToCall": "setPower",
+    "parameters": [
+      true,
+      300
+    ]
+  },
+  "powerOff": {
+    "functionToCall": "setPower",
+    "parameters": [
+      false,
+      300
+    ]
+  },
+  "brightness10": {
+    "functionToCall": "setBrightness",
+    "parameters": [
+      10,
+      2000
+    ]
+  },
+  "brightness20": {
+    "functionToCall": "setBrightness",
+    "parameters": [
+      20,
+      2000
+    ]
+  },
+  "brightness40": {
+    "functionToCall": "setBrightness",
+    "parameters": [
+      40,
+      2000
+    ]
+  },
+  "brightness100": {
+    "functionToCall": "setBrightness",
+    "parameters": [
+      100,
+      2000
+    ]
+  },
+  "blue": {
+    "functionToCall": "setRGB",
+    "parameters": [
+      [
+        0,
+        0,
+        255
+      ],
+      2000
+    ]
+  },
+  "defaultColor": {
+    "functionToCall": "setRGB",
+    "parameters": [
+      [
+        255,
+        214,
+        170
+      ],
+      2000
+    ]
+  }
+}

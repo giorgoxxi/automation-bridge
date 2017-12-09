@@ -122,5 +122,49 @@
       "3000",
       "PARAM1"
     ]
+  },
+  "movieNight": {
+    "bravia": [
+      "media"
+    ],
+    "broadlink": [
+      "av-tv"
+    ],
+    "yeelight-1": [
+      "movieNight"
+    ],
+    "yeelight-2": [
+      "movieNight"
+    ]
+  },
+  "pauseMovieNight": {
+    "bravia": [
+      "Pause"
+    ],
+    "yeelight-1": [
+      "pauseMovieNight"
+    ],
+    "yeelight-2": [
+      "pauseMovieNight"
+    ]
+  },
+  "resumeMovieNight": {
+    "bravia": [
+      "Play"
+    ],
+    "yeelight-1": [
+      "movieNight"
+    ],
+    "yeelight-2": [
+      "movieNight"
+    ]
+  },
+  "restoreLights": {
+    "yeelight-1": [
+      "restoreLight"
+    ],
+    "yeelight-2": [
+      "restoreLight"
+    ]
   }
 }

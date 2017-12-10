@@ -130,10 +130,7 @@
     "broadlink": [
       "av-tv"
     ],
-    "yeelight-1": [
-      "movieNight"
-    ],
-    "yeelight-2": [
+    "livingRoomLights": [
       "movieNight"
     ]
   },
@@ -141,10 +138,7 @@
     "bravia": [
       "Pause"
     ],
-    "yeelight-1": [
-      "pauseMovieNight"
-    ],
-    "yeelight-2": [
+    "livingRoomLights": [
       "pauseMovieNight"
     ]
   },
@@ -152,18 +146,12 @@
     "bravia": [
       "Play"
     ],
-    "yeelight-1": [
-      "movieNight"
-    ],
-    "yeelight-2": [
+    "livingRoomLights": [
       "movieNight"
     ]
   },
   "restoreLights": {
-    "yeelight-1": [
-      "restoreLight"
-    ],
-    "yeelight-2": [
+    "livingRoomLights": [
       "restoreLight"
     ]
   }

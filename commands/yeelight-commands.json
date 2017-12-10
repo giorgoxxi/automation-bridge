@@ -5,6 +5,7 @@
     "brightness10"
   ],
   "restoreLight": [
+    "powerOn",
     "defaultColor",
     "brightness100"
   ],

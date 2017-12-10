@@ -48,7 +48,7 @@ app.post("/", function (request, response) {
             processor.executeScene();
         })
     } else {
-        actionProcessor(requestBody.target, requestBody.actions, function (processor) {
+        actionProcessor(requestBody.target, requestBody.actions, requestBody.params, function (processor) {
             processor.executeActions();
         })
     }

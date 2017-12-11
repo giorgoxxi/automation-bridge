@@ -2,11 +2,16 @@
   "movieNight": [
     "powerOn",
     "blue",
-    "brightness10"
+    "brightness1"
   ],
   "restoreLight": [
     "powerOn",
     "defaultColor",
+    "brightness100"
+  ],
+  "nightLights": [
+    "powerOn",
+    "nightLight",
     "brightness100"
   ],
   "pauseMovieNight": [

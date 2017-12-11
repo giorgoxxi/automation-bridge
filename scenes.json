@@ -154,5 +154,24 @@
     "livingRoomLights": [
       "restoreLight"
     ]
+  },
+  "nightLight": {
+    "livingRoomLights": [
+      "nightLights"
+    ]
+  },
+  "partyLights": {
+    "livingRoomLights": [
+      "powerOn"
+    ],
+    "yeelight-1": [
+      "partyLightRed"
+    ],
+    "yeelight-2": [
+      "partyLightBlue"
+    ],
+    "yeelight-3": [
+      "partyLightGreen"
+    ]
   }
 }

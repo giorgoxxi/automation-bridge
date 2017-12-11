@@ -13,6 +13,13 @@
       300
     ]
   },
+  "brightness1": {
+    "functionToCall": "setBrightness",
+    "parameters": [
+      1,
+      2000
+    ]
+  },
   "brightness10": {
     "functionToCall": "setBrightness",
     "parameters": [
@@ -57,10 +64,51 @@
     "parameters": [
       [
         255,
-        173,
-        85
+        171,
+        132
       ],
       2000
+    ]
+  },
+  "nightLight": {
+    "functionToCall": "setRGB",
+    "parameters": [
+      [
+        255,
+        134,
+        86
+      ],
+      2000
+    ]
+  },
+  "partyLightGreen": {
+    "functionToCall": "startCf",
+    "parameters": [
+      [
+        0,
+        0,
+        "1000, 1, 65280, 100, 1500, 7, 0,0, 1000, 1, 17148, 100, 1500, 7, 0,0, 1000, 1, 16711680, 100, 1500, 7, 0,0"
+      ]
+    ]
+  },
+  "partyLightBlue": {
+    "functionToCall": "startCf",
+    "parameters": [
+      [
+        0,
+        0,
+        "1000, 1, 17148, 100, 1500, 7, 0,0, 1000, 1, 16711680, 100, 1500, 7, 0,0, 1000, 1, 65280, 100, 1500, 7, 0,0"
+      ]
+    ]
+  },
+  "partyLightRed": {
+    "functionToCall": "startCf",
+    "parameters": [
+      [
+        0,
+        0,
+        "1000, 1, 16711680, 100, 1500, 7, 0,0, 1000, 1, 65280, 100, 1500, 7, 0,0, 1000, 1, 17148, 100, 1500, 7, 0,0"
+      ]
     ]
   }
 }

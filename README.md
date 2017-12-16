@@ -89,7 +89,7 @@ Here are a few examples:
 Use the following command to run the bridge:
 
 ``` bash
-node run index.js
+node index.js
 ```
 
 ## Executing a Scene

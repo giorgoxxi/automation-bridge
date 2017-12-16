@@ -1,6 +1,6 @@
 {
   "powerOn": {
-    "functionToCall": "setPowerStats",
+    "functionToCall": "setPowerState",
     "parameters": [
       true
     ]

@@ -1,5 +1,5 @@
 const express = require('express'),
-    config = require('./config.json'),
+    config = require('./service-config/config.json'),
     bodyParser = require('body-parser'),
     sceneProcessor = require('./lib/processors/scene-processor'),
     actionProcessor = require('./lib/processors/action-processor'),
@@ -43,17 +43,22 @@ app.post("/", function (request, response) {
 
     console.log('Request received - ' + JSON.stringify(Object.assign({}, requestBody, {"key": "hidden"})));
 
-    if (requestBody.scene) {
-        sceneProcessor(requestBody.scene, requestBody.params, function (processor) {
-            processor.executeScene();
-        })
-    } else {
-        actionProcessor(requestBody.target, requestBody.actions, requestBody.params, function (processor) {
-            processor.executeActions();
-        })
-    }
+    try {
+        if (requestBody.scene) {
+            sceneProcessor(requestBody.scene, requestBody.params, function (processor) {
+                processor.executeScene();
+            })
+        } else {
+            actionProcessor(requestBody.target, requestBody.actions, requestBody.params, function (processor) {
+                processor.executeActions();
+            })
+        }
 
-    response.status(200).send();
+        response.status(200).send();
+    } catch (exception) {
+        console.log('Error - ' + exception);
+        response.status(500).send();
+    }
 
     console.log('Finished processing request');
 });

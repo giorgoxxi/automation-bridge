@@ -1,0 +1,14 @@
+{
+  "powerOn": {
+    "functionToCall": "setPowerStats",
+    "parameters": [
+      true
+    ]
+  },
+  "powerOff": {
+    "functionToCall": "setPowerState",
+    "parameters": [
+      false
+    ]
+  }
+}

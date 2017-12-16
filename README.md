@@ -25,7 +25,7 @@ npm install
 The following files need to be configured to match your environment
 
 ### Service Configuration
-The service configuration is defined in the [`config.json`](config.json) file:
+The service configuration is defined in the [`config.json`](service-config/config.json) file:
 
 ``` json
 {
@@ -38,7 +38,7 @@ The service configuration is defined in the [`config.json`](config.json) file:
   **port:** The port number to run the service on.
  
  ### Devices configuration
- The devices configuration is defined in the [`devices.json`](devices.json) file:
+ The devices configuration is defined in the [`devices.json`](user-config/devices.json) file:
  
 ```
 {
@@ -103,8 +103,8 @@ The payload to execute a scene is as follows:
 }
 ```
 
-**scene**: The name of the scene as specified in [`scenes.json`](scenes.json)  
-**key**: The secret key as specified in [`config.json`](config.json)
+**scene**: The name of the scene as specified in [`scenes.json`](user-config/scenes.json)
+**key**: The secret key as specified in [`config.json`](service-config/config.json)
 
 ### Example using curl
 
@@ -126,9 +126,9 @@ To execute a series of actions against a device, the payload needs to be defined
 }
 ```
 
-**target:** The device identifier to run the actions against (as specified in [`devices.json`](devices.json))
+**target:** The device identifier to run the actions against (as specified in [`devices.json`](user-config/devices.json))
 **actions:** The list of commands to execute gainst the device  
-**key**: The secret key as specified in [`config.json`](config.json)
+**key**: The secret key as specified in [`config.json`](user-config/config.json)
 
 ### Example using curl
 

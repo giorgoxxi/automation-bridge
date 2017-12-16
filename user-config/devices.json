@@ -27,5 +27,8 @@
     "ip": "192.168.1.1",
     "port": 55443,
     "group": "livingRoomLights"
+  },
+  "tplinkplug-heater": {
+    "ip": "192.168.1.1"
   }
 }

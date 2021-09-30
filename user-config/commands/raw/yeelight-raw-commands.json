@@ -41,6 +41,13 @@
       2000
     ]
   },
+  "brightness80": {
+    "functionToCall": "setBrightness",
+    "parameters": [
+      80,
+      2000
+    ]
+  },
   "brightness100": {
     "functionToCall": "setBrightness",
     "parameters": [
@@ -60,24 +67,16 @@
     ]
   },
   "defaultColor": {
-    "functionToCall": "setRGB",
+    "functionToCall": "setCT",
     "parameters": [
-      [
-        255,
-        171,
-        132
-      ],
+      4483,
       2000
     ]
   },
   "nightLight": {
-    "functionToCall": "setRGB",
+    "functionToCall": "setCT",
     "parameters": [
-      [
-        255,
-        134,
-        86
-      ],
+      3121,
       2000
     ]
   },

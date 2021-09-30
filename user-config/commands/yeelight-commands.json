@@ -14,6 +14,11 @@
     "nightLight",
     "brightness100"
   ],
+  "dimLights": [
+    "powerOn",
+    "nightLight",
+    "brightness20"
+  ],
   "pauseMovieNight": [
     "defaultColor",
     "brightness40"

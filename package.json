@@ -16,7 +16,7 @@
     "node-yeelight": "^1.0.6",
     "request": "^2.79.0",
     "sky-remote": "^1.1.0",
-    "tplink-smarthome-api": "^0.20.1",
+    "tplink-smarthome-api": "^0.23.1",
     "wakeonlan": "^0.1.0"
   },
   "devDependencies": {}

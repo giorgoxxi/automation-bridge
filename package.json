@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Sumeet Sadhwani",
   "license": "Apache-2.0",
@@ -14,10 +16,12 @@
     "broadlinkjs-rm": "^0.2.0",
     "express": "^4.14.0",
     "node-yeelight": "^1.0.6",
-    "request": "^2.79.0",
+    "request": "^2.88.0",
     "sky-remote": "^1.1.0",
     "tplink-smarthome-api": "^0.20.1",
-    "wakeonlan": "^0.1.0"
+    "wakeonlan": "^0.1.0",
+    "@snyk/protect": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }

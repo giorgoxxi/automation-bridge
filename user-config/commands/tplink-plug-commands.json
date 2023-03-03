@@ -1,1 +1,6 @@
-{}
+{
+  "turnOnFor30Minutes": [
+    "powerOn",
+    "turnOffIn30Minutes"
+  ]
+}

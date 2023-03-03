@@ -10,5 +10,11 @@
     "parameters": [
       false
     ]
+  },
+  "turnOffIn30Minutes": {
+    "functionToCall": "addRule",
+    "parameters": [
+      {"delay": 1800, "powerState": 0, "name": "turnOffIn30Minutes", "enable": true, "deleteExisting": true}
+    ]
   }
 }

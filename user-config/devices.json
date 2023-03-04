@@ -28,8 +28,29 @@
     "port": 55443,
     "group": "livingRoomLights"
   },
-  "tplinkplug-heater": {
+  "yeelight-3":{
+    "ip": "192.168.1.1",
+    "port": 55443,
+    "group": "livingRoomLights"
+  },
+  "yeelight-4":{
+    "ip": "192.168.1.1",
+    "port": 55443,
+    "group": "livingRoomLights"
+  },
+  "tplinkplug-leftbedheater":{
     "ip": "192.168.1.1"
+  },
+  "tplinkplug-rightbedheater":{
+    "ip": "192.168.1.1"
+  },
+  "tplinkplug-kitchenlightsleft":{
+    "ip": "192.168.1.1",
+    "group": "livingRoomLights"
+  },
+  "tplinkplug-kitchenlightsright":{
+    "ip": "192.168.1.1",
+    "group": "livingRoomLights"
   },
   "foscam": {
     "ip": "192.168.1.1",

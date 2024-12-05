@@ -11,7 +11,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "broadlinkjs-rm": "^0.2.0",
+    "broadlinkjs-rm": "^0.7.6",
     "express": "^4.14.0",
     "node-yeelight": "^1.0.6",
     "request": "^2.79.0",
